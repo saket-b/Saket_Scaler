@@ -48,6 +48,9 @@ public class Client {
         parkingLot.setExit_gates(exitGates);
 
         // Allocation Strategy Type
+        parkingLot.setSlotAllocationType(SlotAllocationType.RANDOM);
+
+        //parkingLot id
         parkingLot.setId(123456L);
 
 
@@ -112,6 +115,8 @@ public class Client {
         {
             System.out.println(issueTicketResponseDTO.getResponseMessage());
         }
+
+        System.out.println("\n");
 
         IssueTicketRequestDTO requestDTO2 = new IssueTicketRequestDTO();
         requestDTO2.setGateId(1L);

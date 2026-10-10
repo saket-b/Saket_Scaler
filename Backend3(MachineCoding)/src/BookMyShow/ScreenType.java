@@ -1,4 +1,5 @@
 package BookMyShow;
 
-public enum ScreeType {
+public enum ScreenType {
+
 }
